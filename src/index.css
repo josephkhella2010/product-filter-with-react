@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: rgba(100, 99, 99, 0.703);
+}
+
+.h1 {
+    font-size: 48px;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    padding: 20px 40px;
+    background: rgba(65, 65, 65, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/* Style checkboxes */
+
+.btn-div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-div button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-div button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+label input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.search-div {
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 70%;
+    margin: auto auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.541), 0px 0px 10px 2px rgba(0, 0, 0, 0.541), 0px 0px 20px 2px rgba(17, 17, 17, 0.541), 0px 0px 25px 2px rgba(0, 0, 0, 0.541);
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    outline: none;
+    font-size: 1.3rem;
+    font-family: cursive;
+    border: 0px
+}
+
+.search-icon {
+    font-size: 1.3rem;
+}
+
+.filter-div {
+    background: rgba(52, 52, 52, 0.336);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 250px;
+    gap: 5px;
+    padding: 20px;
+    overflow: hidden;
+    margin: auto auto;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+.header {
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 30px;
+}
+
+.checkbox-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px
+}
+
+.checkbox-div label {}
+
+.filter-div.active {
+    height: 100%;
+}
+
+
+/* ///////////////////////////////////////7 */
+
+
+/* Main wrapper to hold all product cards */
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    font-family: "Arial", sans-serif;
+    width: 30%;
+}
+
+
+/* Hover effect for product card */
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+/* Text container */
+
+.text-div {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.text-div h3 {
+    font-size: 20px;
+    font-family: "Georgia", serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-div h4 {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+    font-family: "Verdana", sans-serif;
+}
+
+.text-div p {
+    color: #28a745;
+    font-family: "Arial Black", sans-serif;
+}
+
+
+/* Button styling */
+
+.container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Tahoma", sans-serif;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+
+/* Button hover effect */
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive layout for smaller screens */
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    .text-div h2 {
+        font-size: 15px;
+    }
+    .container button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .text-div h2 {
+        font-size: 14px;
+    }
+    .container button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
